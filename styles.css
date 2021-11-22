@@ -3,9 +3,19 @@ body {
 }
 
 img {
-    height: 50vh
+    height: 50vh;
+    float: left;
+}
+
+video:hover{
+    width: 640px;
+    height: 480px;
 }
 
 table {
-    margin: 0px auto;
+    margin: 10px auto;
+    box-shadow: 5px 5px 5px black;
+    width: 40vw;
+    border: 2px dotted red;
+    padding: 20px;
 }
